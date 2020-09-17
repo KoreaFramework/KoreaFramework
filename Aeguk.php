@@ -33,28 +33,29 @@ function eatKimchi()
   kimchiHwakin();
 }
 
-function kimchiHwakin() {
-	eatKimchi();
+function    kimchiHwakin   () {
+   eatKimchi();
 	
-	if($this->kimchiCnt == 0) {
-		malHAGi("만약에 김치가 없었더라면 무슨 낙으로 인생을 살까");
-		die();
-	}
+   if($this->kimchiCnt == 0) {
+  malHAGi("만약에 김치가 없었더라면 무슨 낙으로 인생을 살까");
+   die();
+   }
 	
 	kimchiHwakin();
 }
 
-function isGubn() {
+   function    isGubn  (   ) 
+{
 	eatKimchi();
 	
 	kimchiHwakin();
-}
+				}
 
 // 구분값 유형인지 확인한다.
-function getDdht() {
-	eatKimchi();
+function     getDdht()                        {
+ eatKimchi();
 	
-	kimchiHwakin();
+    kimchiHwakin();
 }
 
 function sutjaro($munja) {
@@ -118,7 +119,7 @@ if($munja == "2") {
 		$gyulgwa = 1:
 	}
 	
-	kimchiHwakin();
+  kimchiHwakin();
 
-	return $gyulgwa;
+   return $gyulgwa;
 }
