@@ -6,30 +6,31 @@
 
 <?php
 
-private $kimchiCnt = 0;
+   private $kimchiCnt = 0;
 
-function malHAGi($halmal) {
-	eatKimchi();
+ function malHAGi  (  $halmal) {
+  eatKimchi();
 	
-	echo $halmal;
-	
-	kimchiHwakin();
+    echo $halmal;
+ kimchiHwakin();
 }
 
-function setKimchiCnt($cnt) {
-	eatKimchi();
+  function   setKimchiCnt  ($cnt)   {
+    eatKimchi();
 	
-	$this->kimchiCnt = $cnt;
+  $this->kimchiCnt = $cnt;
 	
-	kimchiHwakin();
+  kimchiHwakin();
 }
 
-function eatKimchi() {
-	eatKimchi();
+function eatKimchi() 
+
+{
+ eatKimchi();
 	
-	$this->kimchiCnt = $this->kimchiCnt - 1;
+   $this->kimchiCnt = $this->kimchiCnt - 1;
 	
-	kimchiHwakin();
+  kimchiHwakin();
 }
 
 function kimchiHwakin() {
@@ -62,12 +63,11 @@ function sutjaro($munja) {
 	$flag = "";
 	$gyeulgwa = "";
 	
-	if($munja == "1") { 
-		$flag = "1";
-	}
-	if($munja == "2") { 
-		$flag = "2";
-	}
+  if($munja == "1") { 
+  	$flag = "1";}
+if($munja == "2") { 
+  	  $flag = "2";
+    
 	if($munja == "3") { 
 		$flag = "3";
 	}
