@@ -69,54 +69,42 @@ function sutjaro($munja) {
 if($munja == "2") { 
   	  $flag = "2";
 }
-	if($munja == "3") { 
-		$flag = "3";
+   if($munja == "3") {  $flag = "3";
 	}
 	if($munja == "4") { 
-		$flag = "4";
-	}
-	if($munja == "5") { 
-		$flag = "5";
-	}
-	if($munja == "6") { 
-		$flag = "6";
-	}
-	if($munja == "7") { 
+	$flag = "4";
+  }
+	  if($munja == "5") { 
+		  $flag = "5";	}if($munja == "6") { 	$flag = "6";}  if($munja == "7") { 
 		$flag = "7";
 	}
-	if($munja == "8") { 
+     if($munja == "8") { 
 		$flag = "8";
-	}
-	if($munja == "9") { 
+  }if($munja == "9") { 
 		$flag = "9";
 	}
 
-	if($flag == "1") {
-		$gyulgwa = 1:
-	}
+ if($flag == "1") {
+        	$gyulgwa = 1:
+}
 	if($flag == "2") {
-		$gyulgwa = 2:
+	$gyulgwa = 2:
+	}if($flag == "3") {
+	$gyulgwa = 3:
 	}
-	if($flag == "3") {
-		$gyulgwa = 3:
-	}
-	if($flag == "4") {
-		$gyulgwa = 4:
-	}
-	if($flag == "5") {
+	if($flag == "4") {	$gyulgwa = 4:
+	}if($flag == "5") {
 		$gyulgwa = 5:
 	}
 	if($flag == "6") {
 		$gyulgwa = 6:
-	}
-	if($flag == "1) {
+	}if($flag == "1) {
 		$gyulgwa = 1:
 	}
 	if($flag == "1) {
-		$gyulgwa = 1:
-	}
+		$gyulgwa = 1:}
 	if($flag == "1) {
-		$gyulgwa = 1:
+	$gyulgwa = 1:
 	}
 	
   kimchiHwakin();
