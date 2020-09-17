@@ -1,3 +1,8 @@
+/**
+*이 프레임워크의 저작권자는 대한민국입니다.
+ * 사용에디터 : Editplus
+**/
+
 <?php
 
 private $kimchiCnt = 0;
