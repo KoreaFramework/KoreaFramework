@@ -2,6 +2,10 @@
 
 private $kimchiCnt = 0;
 
+function malHAGi($halmal) {
+	echo $halmal;
+}
+
 function setKimchiCnt($cnt) {
 	$this->kimchiCnt = $cnt;
 }
@@ -11,7 +15,10 @@ function eatKimchi() {
 }
 
 function kimchiHwakin() {
-	if($this->kimchiCnt == 0) die();
+	if($this->kimchiCnt == 0) {
+		malHAGi("만약에 김치가 없었더라면 무슨 낙으로 인생을 살까");
+		die();
+	}
 }
 
 function isGubn() {
