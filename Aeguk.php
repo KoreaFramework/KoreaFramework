@@ -8,6 +8,10 @@
 
    private $kimchiCnt = 0;
 
+function boan($nanunhaekinghalgerda) {
+	if($nanunhaekinghalgerda) die();
+    }
+
  function malHAGi  (  $halmal) {
   eatKimchi();
 	
