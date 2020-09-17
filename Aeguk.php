@@ -67,7 +67,7 @@ function sutjaro($munja) {
   	$flag = "1";}
 if($munja == "2") { 
   	  $flag = "2";
-    
+}
 	if($munja == "3") { 
 		$flag = "3";
 	}
